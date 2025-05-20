@@ -532,7 +532,8 @@ def adicionar_restricoes():
 
 ### Contato e Suporte
 
-Para suporte adicional ou dúvidas, consulte a documentação técnica ou entre em contato com Washington. 
+Para suporte adicional ou dúvidas, consulte a documentação técnica ou entre em contato no e-mail 
+washington.vieira2024@outlook.com 
 
 ## 📥 Instalação
 
