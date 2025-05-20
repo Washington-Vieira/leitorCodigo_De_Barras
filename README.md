@@ -111,28 +111,17 @@ Durante a inicialização, o sistema fornece feedback visual:
 
 ```
 Proj/
-├── app/
-│   ├── controllers/
-│   │   ├── main_controller.py
-│   │   ├── resumo_controller.py
-│   │   └── caixas_fechadas_controller.py
-│   ├── models/
-│   │   ├── database.py
-│   │   ├── produto.py
-│   │   └── leitura.py
-│   ├── utils/
-│   │   ├── excel_handler.py
-│   │   ├── excel_importer.py
-│   │   └── db_checker.py
-│   ├── views/
-│   │   ├── main_view.py
-│   │   ├── resumo_view.py
-│   │   └── caixas_fechadas_view.py
-│   └── config.py
-├── data/
-│   ├── excel_importados/
-│   ├── relatorios/
-│   └── backup/
+├── 📁 app/
+│   ├── 📁 assets/
+│   ├── 📁 controllers/
+│   ├── 📁 models/
+│   ├── 📁 utils/
+│   ├── 📁 views/
+├── 📁 data/
+│   ├── 📁 excel_importados/
+│   ├── 📁 relatorios/
+│   └── 📁 backup/
+├── 📁 logs/
 ├── main.py
 ├── monitor_importacao_v2.py
 └── verificar_duplicatas.py
