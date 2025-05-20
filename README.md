@@ -647,32 +647,29 @@ Para atualizar o sistema:
 ### Diagrama de Fluxo Principal
 ```mermaid
 graph TD
-    A[Início do Sistema] --> B{Verificar Banco}
-    B -->|Não existe| C[Criar Banco]
-    B -->|Existe| D[Verificar Integridade]
-    C --> D
-    D --> E[Iniciar Monitor de Arquivos]
-    E --> F[Abrir Interface Principal]
+    A[Início do Sistema] --> B[Inicialização do Banco]
+    B --> C[Iniciar Monitor de Arquivos]
+    B --> D[Iniciar Interface Gráfica]
     
-    %% Fluxo de Importação
-    G[Arquivo Excel] -->|Colocado em excel_importados| H[Monitor Detecta]
-    H --> I[Processar Arquivo]
-    I --> J[Gerar Relatório]
-    J --> K[Mover para Processados]
+    C --> E{Novo Arquivo Excel?}
+    E -->|Sim| F[Processar Arquivo]
+    F --> G[Gerar Log]
+    G --> E
     
-    %% Fluxo de Leitura
-    L[Leitura de Código] -->|Scanner| M{Verificar Código}
-    M -->|Válido| N[Registrar Leitura]
-    M -->|Inválido| O[Registrar Não Identificado]
-    N --> P[Atualizar Interface]
-    O --> P
+    D --> H[Tela Principal]
+    H --> I[Resumo]
+    H --> J[Caixas Fechadas]
+    H --> K[Itens sem Caixa]
+    H --> L[Códigos não Identificados]
     
-    %% Fluxo de Caixas
-    Q[Abrir Caixa] --> R[Registrar Leituras]
-    R --> S{Fechar Caixa?}
-    S -->|Sim| T[Gerar Relatório Caixa]
-    S -->|Não| R
-```
+    I --> M[Atualizar Dados]
+    J --> M
+    K --> M
+    L --> M
+    
+    M --> N[Salvar no Banco]
+    N --> O[Gerar Relatório]
+  ```
 
 ### Fluxos Detalhados
 
@@ -796,5 +793,3 @@ graph TD
    - Fechamento correto
    - Backup dos dados
 
-// ... existing code ... # leitor_Codigo_De_Barras
-# leitor_Codigo_De_Barras
