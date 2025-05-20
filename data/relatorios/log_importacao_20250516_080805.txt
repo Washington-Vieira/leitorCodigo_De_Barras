@@ -1,0 +1,8 @@
+📊 RELATÓRIO DE IMPORTAÇÃO - Checkpoint (51).xlsx
+Data/Hora: 16/05/2025 08:08:05
+==================================================
+
+RESUMO:
+➕ Registros inseridos: 29722
+🔄 Registros atualizados: 74
+⏭️ Registros ignorados: 0

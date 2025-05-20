@@ -1,0 +1,75 @@
+GUIA DE INSTALAÇÃO - LEITOR DE CÓDIGO DE BARRAS
+Versão 1.3.1
+
+REQUISITOS DO SISTEMA:
+- Windows 7/8/10/11
+- 4GB de RAM (mínimo)
+- 500MB de espaço em disco
+- Resolução mínima: 1024x768
+
+PASSOS PARA INSTALAÇÃO:
+
+1. ANTES DE COMEÇAR
+   - Feche todos os programas abertos
+   - Certifique-se de ter privilégios de administrador no computador
+
+2. INICIAR A INSTALAÇÃO
+   - Localize o arquivo "LeitorCodigoBarras_Setup.exe"
+   - Dê um duplo clique para iniciar
+   - Se aparecer o aviso do Windows Defender, clique em "Mais informações" e depois em "Executar assim mesmo"
+
+3. PROCESSO DE INSTALAÇÃO
+   a) Tela de Boas-vindas
+      - Clique em "Próximo" para continuar
+
+   b) Contrato de Licença
+      - Leia o contrato
+      - Selecione "Eu aceito" para continuar
+      - Clique em "Próximo"
+
+   c) Local de Instalação
+      - O programa sugere instalar em "C:\Program Files\Leitor de Código de Barras"
+      - Você pode alterar o local clicando em "Procurar"
+      - Clique em "Próximo" após escolher o local
+
+   d) Componentes
+      - Selecione os componentes que deseja instalar
+      - "Programa Principal" é obrigatório
+      - "Documentação" é opcional
+      - Clique em "Próximo"
+
+   e) Instalação
+      - Aguarde a conclusão da instalação
+      - Não cancele o processo
+
+   f) Conclusão
+      - Clique em "Concluir"
+
+4. APÓS A INSTALAÇÃO
+   - Um ícone será criado na Área de Trabalho
+   - O programa também estará disponível no Menu Iniciar
+
+5. PRIMEIRO USO
+   - Dê um duplo clique no ícone da Área de Trabalho
+   - O programa criará automaticamente as pastas necessárias
+   - Aguarde a inicialização completa
+
+6. DESINSTALAÇÃO (se necessário)
+   - Vá para Painel de Controle > Programas e Recursos
+   - Localize "Leitor de Código de Barras"
+   - Clique em "Desinstalar"
+   - Siga as instruções na tela
+
+OBSERVAÇÕES IMPORTANTES:
+- Mantenha o programa atualizado
+- Faça backup regular dos dados
+- Em caso de problemas, consulte a documentação em [pasta de instalação]\docs
+- Para suporte técnico, contate o administrador do sistema
+
+ESTRUTURA DE PASTAS CRIADA:
+- data/
+  ├── excel_importados/  (para arquivos Excel a serem importados)
+  ├── relatorios/        (relatórios gerados pelo sistema)
+  └── backup/            (backups automáticos)
+- logs/                  (registros do sistema)
+- docs/                  (documentação) 

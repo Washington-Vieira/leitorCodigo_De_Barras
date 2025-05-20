@@ -1,0 +1,25 @@
+Build realizado em: 2025-05-19 16:01:11
+Sistema Operacional: Windows
+Python: 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]
+
+Dependências instaladas:
+- tkcalendar: 1.6.1
+- pandas: 2.1.0
+- openpyxl: 3.1.2
+- watchdog: 3.0.0
+- pyinstaller: 6.13.0
+- pillow: 11.2.1
+- xlsxwriter: 3.2.0
+- unicodedata2: 15.1.0
+- pywin32: 310
+- psutil: 5.9.8
+- python-dateutil: 2.8.2
+
+Novas funcionalidades na versão 1.3.1:
+- Melhorias na importação de planilhas
+- Otimização no feedback de importação
+- Correção na exclusão em massa de códigos
+- Melhorias na atualização de interfaces
+- Correção na atualização de totais nas caixas
+- Melhorias na sincronização entre telas
+- Otimização no processamento de códigos não identificados

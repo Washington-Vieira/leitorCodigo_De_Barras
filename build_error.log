@@ -1,0 +1,2 @@
+Erro ocorrido em: 2025-05-19 15:15:57
+Erro: Command '['pyinstaller', '--name=Instalador_LeitorCodigoBarras', '--onefile', '--windowed', '--noconsole', '--clean', '--add-data=app/assets;app/assets', '--hidden-import=tkinter', '--hidden-import=tkinter.ttk', '--hidden-import=tkinter.messagebox', '--hidden-import=tkinter.filedialog', '--hidden-import=win32com.client', '--hidden-import=pythoncom', 'instalador_simples.py', '--icon=app/assets/icon.ico']' returned non-zero exit status 1.

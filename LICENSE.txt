@@ -1,0 +1,29 @@
+CONTRATO DE LICENÇA DE USO DO SOFTWARE
+
+Leitor de Código de Barras - Versão 1.3.1
+
+Este é um contrato de licença entre você (usuário final) e a empresa desenvolvedora do software.
+
+1. CONCESSÃO DE LICENÇA
+Este software é licenciado, não vendido. Esta licença concede a você os seguintes direitos:
+- Instalar e utilizar o software em um computador
+- Fazer uma cópia do software para fins de backup
+
+2. RESTRIÇÕES
+Você não pode:
+- Modificar, adaptar ou traduzir o software
+- Fazer engenharia reversa ou descompilar o software
+- Alugar, arrendar ou emprestar o software
+- Transferir seus direitos sob esta licença para terceiros
+
+3. DIREITOS AUTORAIS
+Todos os direitos de propriedade e direitos autorais do software pertencem à empresa desenvolvedora.
+
+4. GARANTIA LIMITADA
+O software é fornecido "como está", sem garantia de qualquer tipo.
+
+5. SUPORTE TÉCNICO
+O suporte técnico será fornecido de acordo com as políticas vigentes da empresa.
+
+6. ACEITAÇÃO
+A instalação e uso do software indica sua aceitação destes termos. 

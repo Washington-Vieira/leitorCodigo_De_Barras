@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database
+*.db
+
+# Excel files
+data/excel_importados/*
+!data/excel_importados/.gitkeep
+
+# Environment
+.env
+.venv
+venv/
